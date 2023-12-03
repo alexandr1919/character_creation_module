@@ -1,0 +1,56 @@
+# Query: Optional[str]
+# ContextLines: 1
+
+
+13 results - 1 file
+
+main.py:
+   3  
+   4  
+   5: def attack(char_name: Optional[str], char_class: Optional[str]) -> str:
+
+   5      if char_class == 'warrior':
+   6      if char_class == 'warrior':
+
+  16  
+  17  
+  18: def defence(char_name: Optional[str], char_class: Optional[str]) -> str:
+
+  18      if char_class == 'warrior':
+  19      if char_class == 'warrior':
+
+  26  
+  27  
+  28: def special(char_name: Optional[str], char_class: Optional[str]) -> str:
+
+  28      if char_class == 'warrior':
+  29      if char_class == 'warrior':
+
+  37  
+  38  
+  39: def start_training(char_name: Optional[str], char_class: Optional[str]) -> str:
+
+  39      if char_class == 'warrior':
+  40      if char_class == 'warrior':
+
+  61  
+  62  
+  63: def choice_char_class() -> Optional[str]:
+  64:     approve_choice: Optional[str] = None
+  65:     char_class: Optional[str] = None
+
+  65      while approve_choice != 'y':
+  66      while approve_choice != 'y':
+
+  86      print('Прежде чем начать игру...')
+  87      print('Прежде чем начать игру...')
+  88:     char_name: Optional[str] = input('...назови себя: ')
+
+  88      print(f'Здравствуй, {char_name}! '
+  89      print(f'Здравствуй, {char_name}! '
+
+  91      print('Воитель, Маг, Лекарь')
+  92      print('Воитель, Маг, Лекарь')
+  93:     char_class: Optional[str] = choice_char_class()
+  93      print(start_training(char_name, char_class))
+  94      print(start_training(char_name, char_class))
